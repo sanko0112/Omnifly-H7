@@ -1165,9 +1165,11 @@ UpdateToLatestRevision=1
 PartTypes=0
 
 [NetInfos]
-Net1=NetName=+5VUSB|NetColor=$009999EA
-Net2=NetName=+VBATT|NetColor=clRed
-Net3=NetName=GND|NetColor=clBlue
+Net1=NetName=+5V|NetColor=$00000066
+Net2=NetName=+5VBUCK|NetColor=$00000099
+Net3=NetName=+5VUSB|NetColor=$009999EA
+Net4=NetName=+VBATT|NetColor=clRed
+Net5=NetName=GND|NetColor=clBlue
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
