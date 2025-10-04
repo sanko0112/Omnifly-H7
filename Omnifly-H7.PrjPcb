@@ -119,28 +119,28 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Parameter1]
-Name=G.Author
-Value=Lázár Sándor
+Name=G.URL
+Value=www.lzrsystems.com
 
 [Parameter2]
-Name=G.Description
-Value=
-
-[Parameter3]
-Name=G.Project
-Value=
-
-[Parameter4]
-Name=G.Revision
-Value=
-
-[Parameter5]
 Name=G.Title
 Value=
 
+[Parameter3]
+Name=G.Revision
+Value=1
+
+[Parameter4]
+Name=G.Project
+Value=Omnifly H7
+
+[Parameter5]
+Name=G.Description
+Value=Multi Platform Flight controller
+
 [Parameter6]
-Name=G.URL
-Value=www.lzrsystems.com
+Name=G.Author
+Value=Lázár Sándor
 
 [Configuration1]
 Name=Sources
