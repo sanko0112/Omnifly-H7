@@ -135,29 +135,46 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[Document6]
+DocumentPath=Pyro-Other.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=LOGRGQPK
+
 [Parameter1]
-Name=G.URL
-Value=www.lzrsystems.com
+Name=G.Author
+Value=Lázár Sándor
 
 [Parameter2]
-Name=G.Title
-Value=
-
-[Parameter3]
-Name=G.Revision
-Value=1
-
-[Parameter4]
-Name=G.Project
-Value=Omnifly H7
-
-[Parameter5]
 Name=G.Description
 Value=Multi Platform Flight controller
 
+[Parameter3]
+Name=G.Project
+Value=Omnifly H7
+
+[Parameter4]
+Name=G.Revision
+Value=1
+
+[Parameter5]
+Name=G.Title
+Value=
+
 [Parameter6]
-Name=G.Author
-Value=Lázár Sándor
+Name=G.URL
+Value=www.lzrsystems.com
 
 [Configuration1]
 Name=Sources
