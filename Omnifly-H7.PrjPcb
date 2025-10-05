@@ -57,7 +57,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=3
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -125,7 +125,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=4
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -142,7 +142,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=5
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -169,46 +169,29 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document8]
-DocumentPath=Schlib1.SchLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=FESLDXJP
-
 [Parameter1]
-Name=G.Author
-Value=Lázár Sándor
+Name=G.URL
+Value=www.lzrsystems.com
 
 [Parameter2]
-Name=G.Description
-Value=Multi Platform Flight controller
-
-[Parameter3]
-Name=G.Project
-Value=Omnifly H7
-
-[Parameter4]
-Name=G.Revision
-Value=1
-
-[Parameter5]
 Name=G.Title
 Value=
 
+[Parameter3]
+Name=G.Revision
+Value=1
+
+[Parameter4]
+Name=G.Project
+Value=Omnifly H7
+
+[Parameter5]
+Name=G.Description
+Value=Multi Platform Flight controller
+
 [Parameter6]
-Name=G.URL
-Value=www.lzrsystems.com
+Name=G.Author
+Value=Lázár Sándor
 
 [Configuration1]
 Name=Sources
@@ -1016,7 +999,7 @@ Type10=1
 Type11=2
 Type12=2
 Type13=2
-Type14=1
+Type14=0
 Type15=1
 Type16=1
 Type17=1
