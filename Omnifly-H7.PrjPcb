@@ -169,29 +169,46 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[Document8]
+DocumentPath=PCB1.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=VADWWQRC
+
 [Parameter1]
-Name=G.URL
-Value=www.lzrsystems.com
+Name=G.Author
+Value=Lázár Sándor
 
 [Parameter2]
-Name=G.Title
-Value=
-
-[Parameter3]
-Name=G.Revision
-Value=1
-
-[Parameter4]
-Name=G.Project
-Value=Omnifly H7
-
-[Parameter5]
 Name=G.Description
 Value=Multi Platform Flight controller
 
+[Parameter3]
+Name=G.Project
+Value=Omnifly H7
+
+[Parameter4]
+Name=G.Revision
+Value=1
+
+[Parameter5]
+Name=G.Title
+Value=
+
 [Parameter6]
-Name=G.Author
-Value=Lázár Sándor
+Name=G.URL
+Value=www.lzrsystems.com
 
 [Configuration1]
 Name=Sources
@@ -601,6 +618,11 @@ OutputName9=Report Single Pin Nets
 OutputDocumentPath9=
 OutputVariantName9=[No Variations]
 OutputDefault9=0
+OutputType10=BOM_ReportManufacturing
+OutputName10=Manufacturing Data
+OutputDocumentPath10=
+OutputVariantName10=[No Variations]
+OutputDefault10=0
 
 [OutputGroup7]
 Name=Other Outputs
@@ -895,6 +917,8 @@ Type156=1
 Type157=1
 Type158=1
 Type159=1
+Type160=1
+Type161=1
 
 [Difference Levels]
 Type1=1
@@ -984,6 +1008,7 @@ Type84=1
 Type85=1
 Type86=1
 Type87=1
+Type88=1
 
 [Electrical Rules Check]
 Type1=1
@@ -1149,6 +1174,8 @@ Type160=0
 Type161=0
 Type162=1
 Type163=1
+Type164=1
+Type165=2
 
 [ERC Connection Matrix]
 L1=NNNNNNNNNNNWNNNWW
@@ -1191,10 +1218,22 @@ NetClassManualEnabled=1
 NetClassSeparateForBusSections=0
 
 [LibraryUpdateOptions]
-SelectedOnly=0
+SelectedOnly=1
 UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
+ComponentLibIdentifierKind0=Library Name And Type
+ComponentLibraryIdentifier0=Celestial Altium Library - altium_library.DbLib/Capacitors - Ceramic - 0402
+ComponentDesignItemID0=C0402C100K4GAC7867
+ComponentSymbolReference0=Capacitor
+ComponentUpdate0=1
+ComponentIsDeviceSheet0=0
+ComponentLibIdentifierKind1=Vault Name
+ComponentLibraryIdentifier1=Sandor Lazar
+ComponentDesignItemID1=CMP-002-00071-1
+ComponentSymbolReference1=e7c17a616881a82b79941196b4bec10
+ComponentUpdate1=1
+ComponentIsDeviceSheet1=0
 FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -1208,6 +1247,100 @@ RemoveParameters=0
 AddModels=1
 RemoveModels=1
 UpdateCurrentModels=1
+ParameterName0=Applications
+ParameterUpdate0=1
+ParameterName1=Capacitance
+ParameterUpdate1=1
+ParameterName2=Case/Package
+ParameterUpdate2=1
+ParameterName3=Comment
+ParameterUpdate3=1
+ParameterName4=Component Kind
+ParameterUpdate4=1
+ParameterName5=componentlink1description
+ParameterUpdate5=1
+ParameterName6=componentlink1url
+ParameterUpdate6=1
+ParameterName7=componentlink2description
+ParameterUpdate7=1
+ParameterName8=componentlink2url
+ParameterUpdate8=1
+ParameterName9=Connector Type
+ParameterUpdate9=1
+ParameterName10=Description
+ParameterUpdate10=1
+ParameterName11=Device Package
+ParameterUpdate11=1
+ParameterName12=Features
+ParameterUpdate12=1
+ParameterName13=Gender
+ParameterUpdate13=1
+ParameterName14=lastupdated
+ParameterUpdate14=1
+ParameterName15=Library Reference
+ParameterUpdate15=1
+ParameterName16=Lifecycle Status
+ParameterUpdate16=1
+ParameterName17=manufacturer
+ParameterUpdate17=1
+ParameterName18=Max Current Rating
+ParameterUpdate18=1
+ParameterName19=Max Operating Temperature
+ParameterUpdate19=1
+ParameterName20=Min Operating Temperature
+ParameterUpdate20=1
+ParameterName21=Minimum Order
+ParameterUpdate21=1
+ParameterName22=Mounting Technology
+ParameterUpdate22=1
+ParameterName23=Mounting Type
+ParameterUpdate23=1
+ParameterName24=Operating Temperature
+ParameterUpdate24=1
+ParameterName25=Package / Case
+ParameterUpdate25=1
+ParameterName26=packaging
+ParameterUpdate26=1
+ParameterName27=Part Number
+ParameterUpdate27=1
+ParameterName28=Part Status
+ParameterUpdate28=1
+ParameterName29=partid
+ParameterUpdate29=1
+ParameterName30=Pins
+ParameterUpdate30=1
+ParameterName31=price
+ParameterUpdate31=1
+ParameterName32=RoHS Compliant
+ParameterUpdate32=1
+ParameterName33=series
+ParameterUpdate33=1
+ParameterName34=Size / Dimension
+ParameterUpdate34=1
+ParameterName35=Supplier 1
+ParameterUpdate35=1
+ParameterName36=Supplier Part Number 1
+ParameterUpdate36=1
+ParameterName37=Temperature Coefficient
+ParameterUpdate37=1
+ParameterName38=Thickness (Max)
+ParameterUpdate38=1
+ParameterName39=Tolerance
+ParameterUpdate39=1
+ParameterName40=value
+ParameterUpdate40=1
+ParameterName41=Voltage - Rated
+ParameterUpdate41=1
+ParameterName42=Voltage Rating
+ParameterUpdate42=1
+ModelTypeGroup0=PCBLIB
+ModelTypeUpdate0=1
+ModelType0=PCBLIB
+ModelName0=CAP 0402_1005
+ModelUpdate0=1
+ModelType1=PCBLIB
+ModelName1=FP-USB4105-GF-A-MFG
+ModelUpdate1=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
